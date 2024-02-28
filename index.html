@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/profile.jpeg" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio | Abizar Egi Mahendra</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+
+            <div class="customize-theme" id="nav-custom">
+                <div class="card">
+                    
+                    <h2>Customize your View</h2>
+                    <p class="text-muted">Manage your primary color</p>
+
+                    <div class="color">
+                        <h4>Color</h4><br>
+                        <div class="choose-color">
+                            <span class="color-1 active"></span>
+                            <span class="color-2"></span>
+                            <span class="color-3"></span>
+                            <span class="color-4"></span>
+                            <span class="color-5"></span>
+                        </div>
+                    </div>
+                    <br>
+                    <i class="ri-close-line close_theme" id="close-theme"></i>
+                </div>
+            </div>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <ul class="profile__social">
+                        <i class="ri-moon-line profile__social-features" id="theme-button"></i>
+                        <i class="ri-palette-line profile__social-features" id="custom-theme"></i>
+                    </ul>
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                            <img src="assets/img/foto_profil_hem_hitam-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <h2 class="profile__name">Abizar Egi Mahendra</h2>
+                    <h3 class="profile__profession">Programming Enthusiast</h3>
+                    
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/portfolio.abizar" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abizar-egi-mahendra" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/devyst" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="mailto:abizaregi21@gmail.comt" target="_blank" class="profile__social-link">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=6289515192171" target="_blank" class="profile__social-link">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </ul>
+                </div>
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    <a download="" href="assets/pdf/CV_AbizarEgi_English_0823.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+                    <a download="" href="assets/pdf/PortofolioData_AbizarEgi_0923.pdf" class="button">
+                        Download Portfolio <i class="ri-download-line"></i>
+                    </a>
+                   
+                </div> 
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">1</h3>
+                        <p class="profile__info-description">
+                            Formal <br> education
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">9</h3>
+                        <p class="profile__info-description">
+                            Course <br> completion
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">5</h3>
+                        <p class="profile__info-description">Certificate <br> competence</p>
+                    </div>
+                </div>
+
+                
+                <!-- <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=6289515192171" target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="tel:089515192171" target="_blank" class="button button__small button__gray">
+                        <i class="ri-phone-line"></i>
+                    </a>
+                
+                    <a href="mailto:abizaregi21@gmail.com" target="_blank" class="button button__small button__gray">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div> -->
+                
+                
+                
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#background">
+                        Qualification
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                    
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/project1.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Portfolio website</h3>
+                                    <a href="https://abizaregi.my.id/" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Woocommerce virtual product website</h3>
+                                    <a href="http://www.vaftadevyst.site/" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Responsive car website</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project4.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Glassmorph profile website</h3>
+                                    <a href="https://vaftadevyst.github.io/" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project5.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Responsive profile website</h3>
+                                    <a href="https://vaftadevyst.github.io/company-profile/" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project6.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Dynamic online shop website</h3>
+                                    <a href="https://thriftcrewneck.xyz/" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title"><i class="fa-solid fa-code"></i> Website Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">PHP</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Bootstrap</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title"><i class="fa-solid fa-chart-pie"></i> Data Analyst</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Excel</h3>
+                                            <span class="skills__level">Advance</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Tableau</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Power BI</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Data studio</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__content grid" data-content id="background">
+                        <div class="skills__area">
+                            <h3 class="skills__title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                            <div class="timeline-box padd-15">
+                                <div class="timeline shadow-dark">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2017 - 2021
+                                        </h3>
+                                        <h4 class="timeline-title">Bachelor of Economics</h4>
+                                        <p class="timeline-text">UIN Sunan Ampel Surabaya <br> GPA: 3.62/4.00</p>
+                                    </div>
+                                    
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> April 2022 - May 2022
+                                        </h3>
+                                        <h4 class="timeline-title">ProA Python</h4>
+                                        <p class="timeline-text">Digital Talent Scholarship x Cisco <br> Learned: Python</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> August 2021 - October 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">ProA Data Analyst</h4>
+                                        <p class="timeline-text">Digital Talent Scholarship x DQLab <br> Learned: Python & MySQL</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> June 2021 - August 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">FGA Machine Learning</h4>
+                                        <p class="timeline-text">Digital Talent Scholarship x IBM <br> Learned: Python</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> March 2021 - May 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">ProA Data Scientist</h4>
+                                        <p class="timeline-text">Digital Talent Scholarship x DQLab <br> Learned: Python</p>
+                                    </div>
+                                    
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">Junior Office Operator</h4>
+                                        <p class="timeline-text">BNSP <br> Learned: Microsoft Office</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">Microsoft Excel</h4>
+                                        <p class="timeline-text">Camp404 <br> Learned: Excel</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">Machine Learning Fundamental</h4>
+                                        <p class="timeline-text">Camp404 <br> Learned: Python</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">Junior Computer Operator</h4>
+                                        <p class="timeline-text">Multimatics <br> Learned: Microsoft Office</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">Beasiswa Akademik Ruangguru</h4>
+                                        <p class="timeline-text">Skill Academy by Ruangguru <br> Learned: SQL, Data Studio & R Studio</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__area">
+                            <h3 class="skills__title"><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> July 2023 - Recent
+                                        </h3>
+                                        <h4 class="timeline-title">Associate Ad Ops Specialist</h4>
+                                        <p class="timeline-text">Zero One Digital, PT. Algoritma Digital Abadi</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> January 2022 - July 2023
+                                        </h3>
+                                        <h4 class="timeline-title">Junior Ad Operations</h4>
+                                        <p class="timeline-text">Zero One Digital, PT. Algoritma Digital Abadi</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> October 2021 - December 2021
+                                        </h3>
+                                        <h4 class="timeline-title">Ad Operations</h4>
+                                        <p class="timeline-text">Zero One Digital, PT. Algoritma Digital Abadi</p>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> June 2021 - August 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">Data Analyst Intern</h4>
+                                        <p class="timeline-text">Zero One Digital, PT. Algoritma Digital Abadi</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <h3 class="skills__title space"><i class="fa-solid fa-certificate"></i> Certification</h3>
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> June 2021
+                                        </h3>
+                                        <h4 class="timeline-title">Applied Data Science with Python</h4>
+                                        <p class="timeline-text">From: IBM</p>
+                                        <a href="https://www.credly.com/badges/b719cdce-15b5-442c-b2d9-fad565d0cd42?source=linked_in_profile" class="skills__calendar">view credentials</a>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> June 2021
+                                        </h3>
+                                        <h4 class="timeline-title">Data Visualization with Python</h4>
+                                        <p class="timeline-text">From: IBM</p>
+                                        <a href="https://www.credly.com/badges/b719cdce-15b5-442c-b2d9-fad565d0cd42?source=linked_in_profile" class="skills__calendar">view credentials</a>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> May 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">Data Analysis using Python</h4>
+                                        <p class="timeline-text">From: IBM</p>
+                                        <a href="https://www.credly.com/badges/85d1a3ba-e329-4bbc-83ae-76524974b56d?source=linked_in_profile" class="skills__calendar">view credentials</a>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> May 2021
+                                        </h3>
+                                        <h4 class="timeline-title">Data Analysis Python Track</h4>
+                                        <p class="timeline-text">From: DQLab</p>
+                                        <a href="https://academy.dqlab.id/certificate/pdf/DQLABDATRCSMBDTN/TRACK" class="skills__calendar">view credentials</a>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> June 2021 - June 2024
+                                        </h3>
+                                        <h4 class="timeline-title">Learn Machine Learning Development</h4>
+                                        <p class="timeline-text">From: Dicoding</p>
+                                        <a href="https://www.dicoding.com/certificates/KEXL4O4G0XG2" class="skills__calendar">view credentials</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                        
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="skills__content" data-content id="background">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Education</h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+                           
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Bachelor of Economics</h3>
+                                            <span class="skills__subtitle">UIN Sunan Ampel Surabaya</span>
+                                            <div class="skills__calendar">
+                                                 2017 - 2021 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">ProA Data Analyst</h3>
+                                            <span class="skills__subtitle">Digital Talent Scholarship x DQLab</span>
+                                            <div class="skills__calendar">
+                                                 August 2021 - October 2021 
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+            
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">FGA Machine Learning</h3>
+                                            <span class="skills__subtitle">Digital Talent Scholarship x IBM</span>
+                                            <div class="skills__calendar">
+                                                 June 2021 - August 2021 
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+            
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">ProA Data Scientist</h3>
+                                            <span class="skills__subtitle">Digital Talent Scholarship x DQLab</span>
+                                            <div class="skills__calendar">
+                                                 Maret 2021 - May 2021 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Machine Learning Fundamental</h3>
+                                            <span class="skills__subtitle">Camp404</span>
+                                            <div class="skills__calendar">
+                                                 2021 
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+            
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Microsoft Excel</h3>
+                                            <span class="skills__subtitle">Camp404</span>
+                                            <div class="skills__calendar">
+                                                 2021 
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+            
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Junior Computer Operator</h3>
+                                            <span class="skills__subtitle">Multimatics</span>
+                                            <div class="skills__calendar">
+                                                 2021 
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Junior Office Operator</h3>
+                                            <span class="skills__subtitle">BNSP</span>
+                                            <div class="skills__calendar">
+                                                 2021 
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+            
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">SQL, Data Studio and R Studio</h3>
+                                            <span class="skills__subtitle">Skill Academy</span>
+                                            <div class="skills__calendar">
+                                                 2021 
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                                                            
+                            <h3 class="skills__title">Work</h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Junior Ad Operations</h3>
+                                            <span class="skills__subtitle">Zero One Digital</span>
+                                            <div class="skills__calendar">
+                                                 January 2022 - Present
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Ad Operations</h3>
+                                            <span class="skills__subtitle">Zero One Digital</span>
+                                            <div class="skills__calendar">
+                                                 October 2021 - December 2021 
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Data Analyst Intern</h3>
+                                            <span class="skills__subtitle">Zero One Digital</span>
+                                            <div class="skills__calendar">
+                                                 June 2021 - August 2021 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Certification</h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Introduction to Data Science</h3>
+                                            <span class="skills__subtitle">CloudSwyft Global System, Inc.</span>
+                                            <div class="skills__calendar">
+                                                 October 2021
+                                            </div>
+                                            <a href="https://www.credential.net/582b7432-d4be-4d91-96e9-e4aa97a0006b" class="skills__calendar">view credentials</a>
+                                        </div>
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Applied Data Science with Python</h3>
+                                            <span class="skills__subtitle">IBM</span>
+                                            <div class="skills__calendar">
+                                                 June 2021 
+                                            </div>
+                                            <a href="https://www.credly.com/badges/b6492446-45eb-45cc-9eb6-d4232ad6f384?source=linked_in_profile" class="skills__calendar">view credentials</a>
+                                        </div>    
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Data Visualization with Python</h3>
+                                            <span class="skills__subtitle">IBM</span>
+                                            <div class="skills__calendar">
+                                                 June 2021 - August 2021 
+                                            </div>
+                                            <a href="https://www.credly.com/badges/b719cdce-15b5-442c-b2d9-fad565d0cd42?source=linked_in_profile" class="skills__calendar">view credentials</a>
+                                        </div>
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Data Analysis using Python</h3>
+                                            <span class="skills__subtitle">IBM</span>
+                                            <div class="skills__calendar">
+                                                 May 2021 
+                                            </div>
+                                            <a href="https://www.credly.com/badges/85d1a3ba-e329-4bbc-83ae-76524974b56d?source=linked_in_profile" class="skills__calendar">view credentials</a>
+                                        </div>
+                                        
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Data Analysis Python Track</h3>
+                                            <span class="skills__subtitle">DQLab</span>
+                                            <div class="skills__calendar">
+                                                 May 2021
+                                            </div>
+                                            <a href="https://academy.dqlab.id/certificate/pdf/DQLABDATRCSMBDTN/TRACK" class="skills__calendar">view credentials</a>
+                                        </div>
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Learn Machine Learning Development</h3>
+                                            <span class="skills__subtitle">Dicoding Indonesia</span>
+                                            <div class="skills__calendar">
+                                                 June 2021 - June 2024
+                                            </div>
+                                            <a href="https://www.dicoding.com/certificates/KEXL4O4G0XG2" class="skills__calendar">view credentials</a>
+                                        </div>  
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Learn Basic Data Visualization</h3>
+                                            <span class="skills__subtitle">Dicoding Indonesia</span>
+                                            <div class="skills__calendar">
+                                                 April 2021 - April 2024
+                                            </div>
+                                            <a href="https://www.dicoding.com/certificates/0LZ0DJK2KX65" class="skills__calendar">view credentials</a>
+                                        </div>
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <div>
+                                            <h3 class="skills__name">Getting Started Programming with Python</h3>
+                                            <span class="skills__subtitle">Dicoding Indonesia</span>
+                                            <div class="skills__calendar">
+                                                 April 2021 - April 2024
+                                            </div>
+                                            <a href="https://www.dicoding.com/certificates/6RPNK9MG4P2M" class="skills__calendar">view credentials</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Abizar Egi. All rigths reserved
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
